@@ -1,0 +1,167 @@
+.header {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    opacity: 1;
+    gap: 2rem;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.logo img {
+    width: 150px;
+    height: 25px;
+}
+
+.search {
+    width: 550px;
+    display: flex;
+    flex-wrap: nowrap !important;
+    /* background-color: red; */
+    gap: 0.3rem;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.search-first {
+    display: flex;
+    align-items: center;
+    flex-basis: 90%;
+}
+
+.search-button {
+    width: auto;
+}
+
+.search-button button {
+    background-color: #ff8000;
+    padding: 4px 30px;
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+}
+
+.search-button button:hover {
+    background-color: #707070;
+    color: #fff;
+}
+
+.search-first img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 10px;
+}
+
+.search-input {
+    /* width: 665px; */
+    height: 100%;
+    border-radius: 5px !important;
+    padding-left: 50px !important;
+    border: 2px solid #707070;
+    opacity: 1;
+}
+
+.account {
+    display: flex;
+    gap: 1rem;
+}
+
+.account a {
+    text-decoration: none;
+}
+
+.account a img {
+    width: 30px;
+    height: 30px;
+}
+
+.account a>.img-text {
+    color: #000;
+    padding-left: 10px;
+}
+
+div.menu {
+    display: none;
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>i {
+    display: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #707070;
+    font-size: 35px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hide {
+    opacity: 0;
+    display: none;
+}
+
+.add-nav.show {
+    display: block;
+    opacity: 1;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    transition: width 4.5s ease-in-out;
+}
+
+.show ul {
+    width: 100%;
+    padding: 5px 25px;
+}
+
+.show ul li {
+    list-style-type: none;
+    width: 100%;
+    margin: 7px 0px;
+}
+
+.show ul li a {
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+}
+
+.show ul li a:hover {
+    background-color: #ff8000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search,
+    .account {
+        display: none;
+    }
+
+    .menu>i {
+        display: block;
+        /* justify-content: center;
+        align-items: center; */
+        cursor: pointer;
+    }
+}

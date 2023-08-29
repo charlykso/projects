@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('ttf');
+    font-family: 'Poppins-Light';
+    src: url('./assets/fonts/Poppins/Poppins-Light.ttf') format('ttf');
+    font-family: 'Poppins-Medium';
+    src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('ttf');
+    font-family: 'Poppins-SemiBold';
+    src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf') format('ttf');
+    /* Add more font properties if needed */
+}
