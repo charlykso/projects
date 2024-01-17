@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/q3ZBoUA8EirDxwOMX/V/gAAAAACAAAAAAAQZgAAAAEAACAAAAAtQZWinHXjhukN1NWaIGUTYw8aUZrsDycTGg3hb1hV9QAAAAAOgAAAAAIAACAAAAAS2n8UGHpl5S38v59HDhR9oW8BBG2PgXXXT5H+xgGdOyAAAADrdPc6lL2O774Zd+iA8a1BJXs6GjP2tP09xDHhYYjcO0AAAADnDBUj+BoZc09ky0IQGmG8gke68PaG6xxz8Hz6Fbqte52Sc7B+B2kai7UijUJfDis3h0oCwej8QNmuiLsrPLu1</EncryptedPassword>
+    <_PublishTargetUrl>ftp://w36.wh-2.com/api</_PublishTargetUrl>
+    <History>False|2023-01-06T10:37:02.4026452Z;False|2023-01-06T10:00:54.3197454+01:00;False|2023-01-06T01:15:26.7093961+01:00;False|2023-01-06T01:13:56.4716309+01:00;False|2023-01-06T01:09:42.4953112+01:00;False|2023-01-06T01:05:45.3910342+01:00;False|2023-01-06T01:02:44.8298661+01:00;False|2023-01-06T01:00:25.4073068+01:00;False|2023-01-06T00:55:09.2217672+01:00;False|2023-01-06T00:54:06.3408074+01:00;False|2023-01-06T00:52:50.9251849+01:00;False|2023-01-06T00:51:31.5708223+01:00;False|2023-01-06T00:50:43.1544162+01:00;False|2023-01-06T00:47:24.7183945+01:00;False|2023-01-06T00:41:08.2363743+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.production.json">
+      <publishTime>01/06/2023 01:12:40</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>04/18/2022 13:21:24</publishTime>
+    </File>
+    <File Include="Scrutor.dll">
+      <publishTime>11/03/2020 19:42:16</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/08/2022 22:29:04</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="EasyReaderAppCon">
+      <Value>Server=tcp:s26.winhost.com%3bDatabase=DB_154770_easyread%3buser id=DB_154770_easyread_user%3bpassword=poi90r4%3b MultipleActiveResultSets=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

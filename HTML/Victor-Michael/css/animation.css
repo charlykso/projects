@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    box-shadow: 2px 0 5px 0 #000;
+    height: 80px;
+    margin-bottom: 10px;
+}
+@keyframes animate{
+    0%{
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+        /* color: #fff;
+        width: 150px;
+        height: 80px; */
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0px;
+        /* color: #fff;
+        width: 200px;
+        height: 100px; */
+    }
+    50%{
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+        /* color: #000;
+        width: 250px;
+        height: 120px; */
+    }
+    75%{
+        background-color: pink;
+        left: 0px;
+        top: 200px;
+        /* color: #000;
+        width: 300px;
+        height: 140px; */
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+        /* color: #fff;
+        width: 400px;
+        height: 150px; */
+    }
+}
+.animate{
+    width: 150px;
+    height: 80px;
+    /* background-color: #000;
+    color: #fff; */
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}

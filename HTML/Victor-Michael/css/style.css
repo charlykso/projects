@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+}
+div.logo, div.nav, div.social{
+    display: inline-block;
+}
+div.logo{
+    width: 20%;
+    /* background-color: red; */
+}
+div.logo h1{
+    text-align: center;
+}
+div.nav{
+    width: 50%;
+    /* background-color: green; */
+}
+div.nav ul{
+    text-align: center;
+}
+div.social{
+    width: 28%;
+    /* background-color: aqua; */
+}
+div.social{
+    text-align: center;
+}
+div.nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.github{
+    margin: 0 40px;
+}
+div.nav ul li a, div.social a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+div.nav ul li a:hover{
+    color: yellow;
+}
+div.nav ul li a:active{
+    background-color: #fff;
+    color: #000;
+}

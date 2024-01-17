@@ -297,10 +297,6 @@
     padding-left: 0;
 }
 
-.sale p {
-    margin-bottom: 0;
-}
-
 .sale .ps {
     width: 100%;
     margin-bottom: 8px;
@@ -314,6 +310,7 @@
 }
 
 .sale p {
+    margin-bottom: 0;
     font-family: "Poppins";
     font-size: 12px;
     font-weight: normal;

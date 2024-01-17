@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main h4{
+    text-align: center;
+    text-decoration: underline;
+}
+.main fieldset{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+.main fieldset form div{
+    margin: 15px 10px;
+}
+form div input{
+    padding: 10px 18px;
+    font-size: 16px;
+    font-family: Verdana;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form div label{
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: 700;
+}

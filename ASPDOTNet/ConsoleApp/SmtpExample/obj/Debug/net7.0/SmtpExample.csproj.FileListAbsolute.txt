@@ -1,0 +1,14 @@
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\bin\Debug\net7.0\SmtpExample.exe
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\bin\Debug\net7.0\SmtpExample.deps.json
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\bin\Debug\net7.0\SmtpExample.runtimeconfig.json
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\bin\Debug\net7.0\SmtpExample.dll
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\bin\Debug\net7.0\SmtpExample.pdb
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.AssemblyInfoInputs.cache
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.AssemblyInfo.cs
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.csproj.CoreCompileInputs.cache
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.dll
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\refint\SmtpExample.dll
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.pdb
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\SmtpExample.genruntimeconfig.cache
+C:\projects\ASPDOTNet\ConsoleApp\SmtpExample\obj\Debug\net7.0\ref\SmtpExample.dll

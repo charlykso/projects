@@ -1,0 +1,12 @@
+node_modules 
+*.env 
+.env* 
+obj/
+bin/
+appsettings.Development.json
+wwwroot/book_cover/*
+wwwroot/books/*
+wwwroot/images/*
+global.json
+Controllers/newfile.json
+API.sln
