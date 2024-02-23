@@ -1,0 +1,21 @@
+{
+  "name": "miracle-chinwuba",
+  "version": "1.0.0",
+  "description": "for class",
+  "main": "index3.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "project"
+  },
+  "author": "Ikenna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}

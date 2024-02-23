@@ -1,0 +1,13 @@
+{
+  "name": "stephen-uche",
+  "version": "1.0.0",
+  "description": "first js module class",
+  "main": "index01.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index01.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ikenna",
+  "license": "ISC"
+}

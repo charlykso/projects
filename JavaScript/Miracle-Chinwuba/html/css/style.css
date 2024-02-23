@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/OIG.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #00f;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px 0 #000;
+  margin: 10px 0;
+}
+#demo {
+  margin: 10px;
+}
+.form {
+  padding: 0 10px;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  width: 100%;
+}
+form div div.input {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+}
+form div div.input input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.submit {
+  width: 100%;
+}
+.submit input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+div label {
+  font-size: 20px;
+  font-family: Verdana;
+}
+.errMsg {
+  color: red;
+  font-size: 14px;
+  font-family: Verdana;
+}
+.validations .passVal {
+  color: #f00;
+}
+.calculateAge {
+  width: 100%;
+  font-size: 25px;
+  color: #000;
+  box-shadow: 0 10px 20px 0 #000;
+}
+.dob .input {
+  width: 100%;
+  display: flex;
+}
+.dob .input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.submit button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: rgb(238, 67, 215);
+  color: #ffffff;
+}

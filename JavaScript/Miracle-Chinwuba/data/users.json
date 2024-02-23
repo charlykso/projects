@@ -1,0 +1,45 @@
+[
+    {
+        "id": "82c8f47a-9a28-47f2-aef2-0a4cd589eeb3",
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "email": "jane@gmail.com",
+        "password": "123456",
+        "created_at": "2024-02-02T12:14:16.095Z",
+        "updated_at": "2024-02-02T12:14:16.095Z",
+        "role": "Admin"
+    },
+    {
+        "id": "269d8df9-7927-4785-8a00-a5348e91347d",
+        "firstname": "Miracle",
+        "lastname": "Okafor",
+        "email": "miracle@gmail.com",
+        "password": "123456",
+        "created_at": "2024-02-02T12:14:16.095Z",
+        "updated_at": "2024-02-02T12:14:16.095Z",
+        "role": "Student",
+        "regNo": "LST001022024"
+    },
+    {
+        "id": "c588be85-3a68-4d50-8789-6e7c3f9e0f14",
+        "firstname": "Chinwuba",
+        "lastname": "Obi",
+        "email": "chinwuba@gmail.com",
+        "password": "123456",
+        "created_at": "2024-02-02T12:14:16.095Z",
+        "updated_at": "2024-02-02T12:14:16.095Z",
+        "role": "Student",
+        "regNo": "LST002022024"
+    },
+    {
+        "id": "39a54521-e797-48e6-a2c3-2ee9b229deca",
+        "firstname": "Chidinma",
+        "lastname": "Okafor",
+        "email": "chidinma@gmail.com",
+        "password": "123456",
+        "created_at": "2024-02-02T12:14:16.095Z",
+        "updated_at": "2024-02-02T12:14:16.095Z",
+        "role": "Student",
+        "regNo": "LST003022024"
+    }
+]

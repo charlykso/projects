@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js class</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+            <p id="time"></p>
+        </div>
+        <div class="banner" id="banner">
+            <h2>Banner</h2>
+        </div>
+        <div class="content">
+            <h2 id="demo">Content</h2>
+            <div class="form">
+                <form action="" method="POST" name="signupForm" onsubmit="handleSubmit(event)">
+                    <div class="fname">
+                        <label for="fname">First Name:</label>
+                        <div class="input">
+                            <input type="text" id="fname" name="fname">
+                            <span class="errMsg" id="fnameError"></span>
+                        </div>
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last Name:</label>
+                        <div class="input">
+                            <input type="text" id="lname" name="lname">
+                            <span class="errMsg" id="lnameError"></span>
+                        </div>
+                    </div>
+                    <div class="username">
+                        <label for="username">Username:</label>
+                        <div class="input">
+                            <input type="text" id="username" name="username">
+                            <span class="errMsg" id="usernameError"></span>
+                        </div>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <div class="input">
+                            <input type="password" id="password" name="password" onkeyup="validatePassword()">
+                            <span class="errMsg" id="passwordError"></span>
+                            <div class="validations">
+                                <p id="length" class="passVal">Minimum 6 characters</p>
+                                <p id="lowercase" class="passVal">At least one lowercase letter</p>
+                                <p id="uppercase" class="passVal">At least one uppercase letter</p>
+                                <p id="number" class="passVal">At least one number</p>
+                                <p id="special" class="passVal">At least one special character</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <div class="calculateAge">
+                <h2>Calculate Age</h2>
+                <div class="dob">
+                    <label for="dob">Date of Birth:</label>
+                    <div class="input">
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="age">
+                        <h4 id="displayAge"></h4>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button onclick="calculateAge()">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
