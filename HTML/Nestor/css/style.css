@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.header {
+  background-color: #333;
+  color: #fff;
+}
+.header .logo,
+.header .nav {
+  display: inline-block;
+  padding: 10px;
+}
+.header .nav ul {
+  list-style-type: none;
+}
+.header .nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  /* background-color: red; */
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: Verdana;
+  /* background-color: green; */
+  padding: 10px;
+  display: block;
+  text-transform: capitalize;
+}
+.nav ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+.banner {
+  color: #fff;
+  background-image: url('../images/listacc_img.jpg');
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+.banner h1 {
+  padding-top: 20vh;
+  font-size: 3em;
+}
+.content {
+  padding: 20px;
+}
+.content table{
+    width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
